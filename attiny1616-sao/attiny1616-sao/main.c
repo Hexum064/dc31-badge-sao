@@ -24,6 +24,7 @@
 #define GAME_WON_DISP_PER 15
 #define GAME_LOST_DISP_PER 15
 #define GAME_SHOW_PATTERN_PER 35
+#define RESET_PER 300
 
 #define DEBOUNCE_PER 2 //20ms
 
@@ -949,6 +950,25 @@ int main(void)
 	sei();
 
 	load_game_length();
+
+	//If the pin is held for five seconds, we are in reset mode
+	while(game_timer < RESET_PER)
+	{
+		if (PORTB.IN & PIN5_bm)	
+		{
+			game_timer = 0;
+			break;
+		}
+	}
+	
+	//The game timer will indicate that we were held in reset
+	//So reset the game length
+	if (game_timer >= RESET_PER) 
+	{
+		game_length = GAME_LENGTH_MIN - 1;
+		update_game_length();
+	}
+
 
 	if (!(PORTB.IN & PIN4_bm)) //Force it for now
 	{
