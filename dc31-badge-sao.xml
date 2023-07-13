@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>M:\BFB\DC31\dc31-badge-sao\dc31-badge-sao.kicad_sch</source>
+    <date>2023-07-07 17:40:16</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>dc31-badge-sao.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>BAT-HLD-001</value>
+      <footprint>BAT-HLD-001:BAT_BAT-HLD-001</footprint>
+      <fields>
+        <field name="MANUFACTURER">Linx Technologies</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.2 mm</field>
+        <field name="PARTREV">C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="BAT-HLD-001" part="BAT-HLD-001" description=""/>
+      <property name="PARTREV" value="C"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.2 mm"/>
+      <property name="MANUFACTURER" value="Linx Technologies"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efc2d15a-2b49-4b99-990e-35cafa93377d</tstamps>
+    </comp>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>GSC1031YB-3V4000:GSC1031YB-3V4000</footprint>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <property name="ki_description" value="Buzzer, polarized"/>
+      <property name="ki_keywords" value="quartz resonator ceramic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2a67029-c230-46de-8493-48e48ec32599</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d77976dc-a571-4406-9b46-577babcc379b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47 uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a992dfa-40ce-44c1-a9c5-b9902b17a57a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Schottky </value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31f7f511-7a62-406b-a241-e79aa8392042</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4a95d62-3fe7-42b2-beb7-5fed9d660f61</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>47 uH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1e1548a-fb5c-4d32-bcef-4914c2ca23ff</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100 Ohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5961509-a728-4a69-bcc0-64b7522870b8</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>47 Ohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>424c7344-6a62-4f91-9735-87b2283a6248</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>PTS636_SM43J_SMTR_LFS</value>
+      <footprint>TS-1101-C-W:SW_PTS636_SM43J_SMTR_LFS</footprint>
+      <fields>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.3 mm</field>
+        <field name="PARTREV">27 mar 19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="TS-1101-C-W" part="PTS636_SM43J_SMTR_LFS" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.3 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="27 mar 19"/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16c4fa10-cb71-4279-b680-069363bf5bbf</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>PTS636_SM43J_SMTR_LFS</value>
+      <footprint>TS-1101-C-W:SW_PTS636_SM43J_SMTR_LFS</footprint>
+      <fields>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.3 mm</field>
+        <field name="PARTREV">27 mar 19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="TS-1101-C-W" part="PTS636_SM43J_SMTR_LFS" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.3 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="27 mar 19"/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e18d8ad-4a92-4ebd-b48d-6ff4e5c603ac</tstamps>
+    </comp>
+    <comp ref="S4">
+      <value>PTS636_SM43J_SMTR_LFS</value>
+      <footprint>TS-1101-C-W:SW_PTS636_SM43J_SMTR_LFS</footprint>
+      <fields>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.3 mm</field>
+        <field name="PARTREV">27 mar 19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="TS-1101-C-W" part="PTS636_SM43J_SMTR_LFS" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.3 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="27 mar 19"/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db8333d9-c26c-489c-94df-13e6047b766c</tstamps>
+    </comp>
+    <comp ref="S5">
+      <value>PTS636_SM43J_SMTR_LFS</value>
+      <footprint>TS-1101-C-W:SW_PTS636_SM43J_SMTR_LFS</footprint>
+      <fields>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.3 mm</field>
+        <field name="PARTREV">27 mar 19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="TS-1101-C-W" part="PTS636_SM43J_SMTR_LFS" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.3 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="27 mar 19"/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22f9fb03-51da-442e-b77b-66958d0e5ce2</tstamps>
+    </comp>
+    <comp ref="S6">
+      <value>PTS636_SM43J_SMTR_LFS</value>
+      <footprint>TS-1101-C-W:SW_PTS636_SM43J_SMTR_LFS</footprint>
+      <fields>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.3 mm</field>
+        <field name="PARTREV">27 mar 19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="TS-1101-C-W" part="PTS636_SM43J_SMTR_LFS" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.3 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="27 mar 19"/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>198fb778-441c-4630-8db7-b6a7e7f0fc0c</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>MSS3-V-T/TA-3524A-A1-W:MSS3VTR</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>309c858d-6f70-49c5-b1a1-04e0ca00af4c</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>~</value>
+      <footprint>TM-1627A:TM-1627A</footprint>
+      <libsource lib="TM-1627A" part="TM-1627A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad29f399-7877-4d97-91ca-c5691506263e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATtiny1616-M</value>
+      <footprint>Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-sheet-40001997B.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny1616-M" description="20MHz, 16kB Flash, 2kB SRAM, 256B EEPROM, VQFN-20"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <property name="ki_description" value="20MHz, 16kB Flash, 2kB SRAM, 256B EEPROM, VQFN-20"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller tinyAVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0df4f807-11e7-4d57-999b-21bfedc24ed7</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>~</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <libsource lib="ME2108C33M5G" part="ME2108C33M5G_" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edc13f8f-1e03-4713-8f7c-4b86f71a758e</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dc35cf7-02ee-4980-b2b2-fa89b97d025b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1856ca67-aab4-4d7d-a320-7c534ef53a28</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb74797d-c686-45e6-9c4e-4095fbc0d53f</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab5eff7c-05c1-485a-a667-b4f7645a7c31</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>439b7b4d-dadf-480a-adca-9eba9d5d2987</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96ee1e37-80e7-42f8-bd8b-5ae7faac769f</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8161a364-46f1-4ece-9f1b-3651125861f6</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f829bd28-8f5d-4353-b4e6-a8e9466fdb72</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61a73ad5-7a4d-4310-9037-619cacee482d</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc965bf5-9a76-4fd6-9bec-9f5d8907455d</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3efbea84-ce22-456d-99a4-ef5bb6483d37</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>~</value>
+      <footprint>ws2812b-1010:ws2812b-1010</footprint>
+      <libsource lib="ws2812b-1010" part="ws2812b-1010" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc31-badge-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>717e4951-95eb-4a02-86cc-21e8778a7c29</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BAT-HLD-001" part="BAT-HLD-001">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BAT-HLD-001</field>
+        <field name="Footprint">BAT_BAT-HLD-001</field>
+        <field name="PARTREV">C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.2 mm</field>
+        <field name="MANUFACTURER">Linx Technologies</field>
+      </fields>
+      <pins>
+        <pin num="N1" name="" type="passive"/>
+        <pin num="P1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny1616-M">
+      <description>20MHz, 16kB Flash, 2kB SRAM, 256B EEPROM, VQFN-20</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-sheet-40001997B.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.4mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny1616-M</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-sheet-40001997B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA2" type="bidirectional"/>
+        <pin num="2" name="PA3" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="PA4" type="bidirectional"/>
+        <pin num="6" name="PA5" type="bidirectional"/>
+        <pin num="7" name="PA6" type="bidirectional"/>
+        <pin num="8" name="PA7" type="bidirectional"/>
+        <pin num="9" name="PB5" type="bidirectional"/>
+        <pin num="10" name="PB4" type="bidirectional"/>
+        <pin num="11" name="PB3" type="bidirectional"/>
+        <pin num="12" name="PB2" type="bidirectional"/>
+        <pin num="13" name="PB1" type="bidirectional"/>
+        <pin num="14" name="PB0" type="bidirectional"/>
+        <pin num="15" name="PC0" type="bidirectional"/>
+        <pin num="16" name="PC1" type="bidirectional"/>
+        <pin num="17" name="PC2" type="bidirectional"/>
+        <pin num="18" name="PC3" type="bidirectional"/>
+        <pin num="19" name="~{RESET}/PA0" type="bidirectional"/>
+        <pin num="20" name="PA1" type="bidirectional"/>
+        <pin num="21" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ME2108C33M5G" part="ME2108C33M5G_">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CE" type="input"/>
+        <pin num="2" name="Out" type="output"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="Gnd" type="power_in"/>
+        <pin num="5" name="Lx" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TM-1627A" part="TM-1627A">
+      <fields>
+        <field name="Reference">SW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TS-1101-C-W" part="PTS636_SM43J_SMTR_LFS">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">PTS636_SM43J_SMTR_LFS</field>
+        <field name="Footprint">SW_PTS636_SM43J_SMTR_LFS</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.3 mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">27 mar 19</field>
+        <field name="MANUFACTURER">C&amp;K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ws2812b-1010" part="ws2812b-1010">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DO" type="output"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="DI" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BAT-HLD-001">
+      <uri>M:\My Documents\Google Drive\Circuit Schematic Parts\BAT-HLD-001.pretty\BAT-HLD-001.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Microchip_ATtiny.kicad_sym</uri>
+    </library>
+    <library logical="ME2108C33M5G">
+      <uri>M:\My Documents\Google Drive\Circuit Schematic Parts\ME2108C33M5G .pretty\ME2108C33M5G.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="TM-1627A">
+      <uri>M:\My Documents\Google Drive\Circuit Schematic Parts\TM-1627A.pretty\TM-1627A.kicad_sym</uri>
+    </library>
+    <library logical="TS-1101-C-W">
+      <uri>M:/My Documents/Google Drive/Circuit Schematic Parts/PTS636_SM43J_SMTR_LFS_SMT_Tactile_Button.pretty/PTS636_SM43J_SMTR_LFS.lib</uri>
+    </library>
+    <library logical="ws2812b-1010">
+      <uri>M:/My Documents/Google Drive/Circuit Schematic Parts/WS2812b-1010.pretty/ws2812b-1010.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U10" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U11" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U12" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U13" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U14" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="Out" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="BT1" pin="N1" pintype="passive"/>
+      <node ref="BZ1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="S2" pin="1" pintype="passive"/>
+      <node ref="S3" pin="1" pintype="passive"/>
+      <node ref="S4" pin="1" pintype="passive"/>
+      <node ref="S5" pin="1" pintype="passive"/>
+      <node ref="S6" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="SW2" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="U1" pin="21" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U14" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="Gnd" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(BZ1--)">
+      <node ref="BZ1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="Lx" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="~{RESET}/PA0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="Net-(SW1-B)">
+      <node ref="BT1" pin="P1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(SW1-C)">
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="CE" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(U1-PA1)">
+      <node ref="U1" pin="20" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(U1-PA5)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Net-(U1-PB0)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="Net-(U1-PB4)">
+      <node ref="S6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(U1-PB5)">
+      <node ref="SW2" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="U1" pin="9" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Net-(U1-PC0)">
+      <node ref="S2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(U1-PC1)">
+      <node ref="S3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Net-(U1-PC2)">
+      <node ref="S4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Net-(U1-PC3)">
+      <node ref="S5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Net-(U3-DO)">
+      <node ref="U3" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U4" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(U4-DO)">
+      <node ref="U4" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U5" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(U5-DO)">
+      <node ref="U5" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U6" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(U6-DO)">
+      <node ref="U6" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U7" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(U7-DO)">
+      <node ref="U7" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U8" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(U8-DO)">
+      <node ref="U8" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U9" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(U10-DI)">
+      <node ref="U10" pin="4" pinfunction="DI" pintype="input"/>
+      <node ref="U9" pin="1" pinfunction="DO" pintype="output"/>
+    </net>
+    <net code="24" name="Net-(U10-DO)">
+      <node ref="U10" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U11" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(U11-DO)">
+      <node ref="U11" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U12" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(U12-DO)">
+      <node ref="U12" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U13" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(U13-DO)">
+      <node ref="U13" pin="1" pinfunction="DO" pintype="output"/>
+      <node ref="U14" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="28" name="unconnected-(SW1-A-Pad1)">
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(SW2-Pad1)">
+      <node ref="SW2" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(U1-PA2-Pad1)">
+      <node ref="U1" pin="1" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(U1-PA3-Pad2)">
+      <node ref="U1" pin="2" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(U1-PA4-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(U1-PA6-Pad7)">
+      <node ref="U1" pin="7" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(U1-PA7-Pad8)">
+      <node ref="U1" pin="8" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(U1-PB1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(U1-PB2-Pad12)">
+      <node ref="U1" pin="12" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="unconnected-(U1-PB3-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="unconnected-(U2-NC-Pad3)">
+      <node ref="U2" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U14-DO-Pad1)">
+      <node ref="U14" pin="1" pinfunction="DO" pintype="output"/>
+    </net>
+  </nets>
+</export>
