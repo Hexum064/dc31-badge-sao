@@ -15,6 +15,10 @@
 #include <stdlib.h>
 #include <avr/eeprom.h>
 
+
+#define NYAN_BUTTON PIN4_bm
+#define INSERT_BUTTON PIN5_bm
+
 #define EEPROM_SET 0xA7 //just some random value
 #define LED_COUNT 12
 
@@ -32,7 +36,7 @@
 #define BUTTON_1 PIN1_bm
 #define BUTTON_2 PIN2_bm
 #define BUTTON_3 PIN3_bm
-#define BUTTON_SONG PIN5_bm
+#define BUTTON_SONG NYAN_BUTTON
 
 #define GAME_LENGTH_MIN 5
 #define GAME_MAX_WAIT 500 //5 seconds
@@ -155,7 +159,7 @@ void io_init()
 	PORTC.PIN3CTRL = PORT_PULLUPEN_bm;
 	
 	//nyan and mode pins
-	PORTB.DIRCLR = PIN4_bm | PIN5_bm;
+	PORTB.DIRCLR = INSERT_BUTTON | NYAN_BUTTON;
 	PORTB.PIN4CTRL = PORT_PULLUPEN_bm;
 	PORTB.PIN5CTRL = PORT_PULLUPEN_bm;
 	
@@ -163,7 +167,7 @@ void io_init()
 	PORTA.DIRSET = PIN1_bm;
 	
 	//Sound out
-	PORTA.DIRSET = PIN5_bm; //Low notes
+	PORTA.DIRSET = NYAN_BUTTON; //Low notes
 	PORTB.DIRSET = PIN0_bm; //High notes
 	
 
@@ -709,7 +713,7 @@ void update_game_lost_display()
 
 uint8_t get_button_pressed()
 {
-	uint8_t in = (PORTC.IN & (PIN0_bm | PIN1_bm | PIN2_bm | PIN3_bm)) | (PORTB.IN & PIN5_bm );
+	uint8_t in = (PORTC.IN & (PIN0_bm | PIN1_bm | PIN2_bm | PIN3_bm)) | (PORTB.IN & NYAN_BUTTON );
 
 	//This should stop other button presses from interfering 
 	//Have to negate "in" because buttons are active low
@@ -730,15 +734,15 @@ uint8_t get_button_pressed()
 
 	if (!(in & PIN2_bm))
 	{
-		return BUTTON_2;
+		return BUTTON_3;
 	}
 
 	if (!(in & PIN3_bm))
 	{
-		return BUTTON_3;
+		return BUTTON_2;
 	}
 
-	if (!(in & PIN5_bm))
+	if (!(in & NYAN_BUTTON))
 	{
 		return BUTTON_SONG;
 	}	
@@ -954,7 +958,7 @@ int main(void)
 	//If the pin is held for five seconds, we are in reset mode
 	while(game_timer < RESET_PER)
 	{
-		if (PORTB.IN & PIN5_bm)	
+		if (PORTB.IN & NYAN_BUTTON)	
 		{
 			game_timer = 0;
 			break;
@@ -970,7 +974,7 @@ int main(void)
 	}
 
 
-	if (!(PORTB.IN & PIN4_bm)) //Force it for now
+	if (!(PORTB.IN & INSERT_BUTTON)) //Force it for now
 	{
 		insert_button_pressed = 1;
 		load_standby();	
@@ -1077,7 +1081,7 @@ ISR(TCB1_INT_vect)
 	}
 	
 	//Setting the button here should cause less bounce issues without actually debouncing
-	insert_button_pressed = !(PORTB.IN & PIN4_bm);
+	insert_button_pressed = !(PORTB.IN & INSERT_BUTTON);
  	
 	TCB1.INTFLAGS = TCB_CAPT_bm;
 }
